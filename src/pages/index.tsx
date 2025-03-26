@@ -8,7 +8,7 @@ const HomePage = () => {
     <div>
       <Navbar />
       <main>
-        <h1>Welcome to Trin's Dark Room</h1>
+        <h1>Welcome to Trins Dark Room</h1>
         <p>Explore and purchase beautiful photography prints.</p>
       </main>
       <Footer />
