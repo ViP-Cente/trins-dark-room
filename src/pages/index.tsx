@@ -1,17 +1,13 @@
 // filepath: trins-dark-room/src/pages/index.tsx
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 const HomePage = () => {
   return (
-    <div>
-      <Navbar />
-      <main>
-        <h1>Welcome to Trins Dark Room</h1>
-        <p>Explore and purchase beautiful photography prints.</p>
+    <div className="min-h-screen bg-gray-100">
+      <main className="text-gray-800 text-center py-8">
+        <h1 className="text-4xl font-bold">Welcome to Trins Dark Room</h1>
+        <p className="text-lg mt-4">Explore and purchase beautiful photography prints.</p>
       </main>
-      <Footer />
     </div>
   );
 };
